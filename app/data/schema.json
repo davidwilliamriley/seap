@@ -10,7 +10,7 @@
     }
   },
   "patternProperties": {
-    "^Station [A-Z]$|^Station .+$": {
+    "^.+ Station$|^Station .+$": {
       "type": "object",
       "description": "A railway station with multiple portions",
       "patternProperties": {
@@ -115,7 +115,7 @@
   "minProperties": 1,
   "examples": [
     {
-      "Station A": {
+      "Box Hill Station": {
         "P1 - Platform Works": {
           "stages": [
             {
@@ -137,6 +137,25 @@
               "end": "2024-12-31",
               "status": "in_progress",
               "milestones": []
+            }
+          ]
+        }
+      },
+      "Station Melbourne Central": {
+        "P1 - Platform Works": {
+          "stages": [
+            {
+              "name": "Design",
+              "start": "2024-01-01",
+              "end": "2024-03-31",
+              "status": "completed",
+              "milestones": [
+                {
+                  "name": "Design Approval",
+                  "date": "2024-03-15",
+                  "status": "completed"
+                }
+              ]
             }
           ]
         }

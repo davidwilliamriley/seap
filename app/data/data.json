@@ -1,8 +1,8 @@
 
 {
   "$schema": "./schema.json",
-  "Station A": {
-    "SP1 - Platform Works": {
+  "Box Hill Station": {
+    "WPF-BOX-SP1a - Station Trackway Handover Area": {
       "stages": [
         {
           "name": "Design",
@@ -55,7 +55,7 @@
         }
       ]
     },
-    "SP2 - Signaling": {
+    "WPF-BOX-SP1b - Trackway Handover Area": {
       "stages": [
         {
           "name": "Design",
@@ -91,7 +91,43 @@
         }
       ]
     },
-    "SP3 - Separable Portion 3": {
+    "WPF-BOX-SP2 - Station Handover Area": {
+      "stages": [
+        {
+          "name": "Design",
+          "start": "2024-02-01",
+          "end": "2024-04-30",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Installation",
+          "start": "2024-05-01",
+          "end": "2025-03-31",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Equipment Delivered",
+              "date": "2024-07-15",
+              "status": "completed"
+            },
+            {
+              "name": "Testing Complete",
+              "date": "2025-02-28",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "Commissioning",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    },
+    "WPF-BOX-SP3 - Surface Works Handover Area": {
       "stages": [
         {
           "name": "Design",
@@ -127,9 +163,10 @@
         }
       ]
     }
+
   },
-  "Station B": {
-    "P1 - Track Works": {
+  "Burwood Station": {
+    "WPF-BUW-SPW - Trackway Handover Area": {
       "stages": [
         {
           "name": "Survey",
@@ -165,10 +202,10 @@
         }
       ]
     },
-    "P2 - Station Building": {
+    "WPF-BUW-SP2 - Station Handover Area": {
       "stages": [
         {
-          "name": "Design",
+          "name": "Preliminary Design",
           "start": "2024-01-01",
           "end": "2024-03-31",
           "status": "completed",
@@ -200,10 +237,46 @@
           "milestones": []
         }
       ]
+    },
+    "WPF-BUW-SP3 - Surface Works Handover Area": {
+      "stages": [
+        {
+          "name": "Survey",
+          "start": "2024-01-15",
+          "end": "2024-02-28",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Construction",
+          "start": "2024-03-01",
+          "end": "2025-02-28",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Track Laying",
+              "date": "2024-06-30",
+              "status": "completed"
+            },
+            {
+              "name": "Ballasting Complete",
+              "date": "2024-11-30",
+              "status": "completed"
+            }
+          ]
+        },
+        {
+          "name": "Testing & Commissioning",
+          "start": "2025-03-01",
+          "end": "2025-05-31",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
     }
   },
-  "Station C": {
-    "P1 - Civil Works": {
+  "Glen Waverley Station": {
+    "WPF-GWY-SP1 - Trackway Handover Area": {
       "stages": [
         {
           "name": "Planning",
@@ -239,6 +312,73 @@
           "name": "Handover",
           "start": "2025-10-01",
           "end": "2025-12-31",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    },
+    "WPF-GWY-SP2 - Station Handover Area": {
+      "stages": [
+        {
+          "name": "Design",
+          "start": "2024-04-01",
+          "end": "2024-06-30",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Installation",
+          "start": "2024-07-01",
+          "end": "2025-05-31",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Wiring Complete",
+              "date": "2024-12-31",
+              "status": "completed"
+            },
+            {
+              "name": "System Testing",
+              "date": "2025-04-30",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "Commissioning",
+          "start": "2025-06-01",
+          "end": "2025-08-31",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    },
+    "WPF-GWY-SP3 - Surface Works Handover Area": {
+      "stages": [
+        {
+          "name": "Design",
+          "start": "2024-05-01",
+          "end": "2024-07-31",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Implementation",
+          "start": "2024-08-01",
+          "end": "2025-04-30",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Planting Complete",
+              "date": "2025-03-31",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "Final Review",
+          "start": "2025-05-01",
+          "end": "2025-06-30",
           "status": "planned",
           "milestones": []
         }
