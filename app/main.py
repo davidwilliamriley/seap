@@ -45,9 +45,7 @@ class IntegrationRoadmap:
         }
         """
 
-        # Get the directory of the current script
         script_dir = os.path.dirname(os.path.abspath(__file__))
-        # Create absolute path to the JSON file
         json_path = os.path.join(script_dir, json_file)
 
         with open(json_path, "r") as f:
@@ -61,7 +59,6 @@ class IntegrationRoadmap:
         }
 
     def parse_date(self, date_str: str) -> datetime:
-        """Convert date string to datetime object"""
         return datetime.strptime(date_str, "%Y-%m-%d")
 
     def get_all_portions(self) -> List[Tuple[str, str]]:
@@ -384,9 +381,8 @@ class IntegrationRoadmap:
 
         return fig
 
-
+# Main Function
 def main():
-    """Demo the roadmap functionality"""
     # Initialize roadmap with JSON file
     roadmap = IntegrationRoadmap("data/data.json")
 
@@ -438,15 +434,14 @@ def main():
         print(f"     Duration: {item['duration_days']} days, Status: {item['status']}")
 
     # Create visualization
-    print("\n\n5. Creating Visualization...")
+    print("\n\n5. Creating Visualisation...")
     print("-" * 40)
     filename = datetime.now().strftime("%Y-%m-%d_%H-%M-%S Systems Engineering & Assurance Program - Stations Alliance North.png")
     fig = roadmap.visualize_roadmap(save_path=filename)
-    print("✓ Visualization complete!")
-    print("\nFiles created:")
-    print(f"  - {filename} (Gantt chart)")
-    print("\nTo update the roadmap, edit: roadmap_data.json")
+    print("✓ Visualisation complete!")
+    print(f"\nFile created - {filename}")
+    print("\nTo update the roadmap, edit the data.json File and rerun this Script.")
 
-
+# Entry Point
 if __name__ == "__main__":
     main()

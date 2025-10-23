@@ -1,8 +1,8 @@
 {
   "json.schemas": [
     {
-      "fileMatch": ["roadmap_data.json"],
-      "url": "./roadmap_schema.json"
+      "fileMatch": ["data/data.json"],
+      "url": "./data/schema.json"
     }
   ],
   "json.format.enable": true,
