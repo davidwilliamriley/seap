@@ -1,1 +1,1 @@
-# seap
+# Systems Engineering & Assurance Program
