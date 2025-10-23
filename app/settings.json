@@ -1,0 +1,11 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["roadmap_data.json"],
+      "url": "./roadmap_schema.json"
+    }
+  ],
+  "json.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true
+}

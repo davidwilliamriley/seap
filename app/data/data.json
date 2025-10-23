@@ -1,0 +1,248 @@
+
+{
+  "$schema": "./schema.json",
+  "Station A": {
+    "SP1 - Platform Works": {
+      "stages": [
+        {
+          "name": "Design",
+          "start": "2024-01-01",
+          "end": "2024-03-31",
+          "status": "completed",
+          "milestones": [
+            {
+              "name": "Design Approval",
+              "date": "2024-03-15",
+              "status": "completed"
+            }
+          ]
+        },
+        {
+          "name": "Procurement",
+          "start": "2024-04-01",
+          "end": "2024-06-30",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Contracts Signed",
+              "date": "2024-06-01",
+              "status": "completed"
+            }
+          ]
+        },
+        {
+          "name": "Construction",
+          "start": "2024-07-01",
+          "end": "2025-12-31",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Foundation Complete",
+              "date": "2024-09-30",
+              "status": "completed"
+            },
+            {
+              "name": "Structural Complete",
+              "date": "2025-06-30",
+              "status": "completed"
+            },
+            {
+              "name": "Final Handover",
+              "date": "2025-12-15",
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    },
+    "SP2 - Signaling": {
+      "stages": [
+        {
+          "name": "Design",
+          "start": "2024-02-01",
+          "end": "2024-04-30",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Installation",
+          "start": "2024-05-01",
+          "end": "2025-03-31",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Equipment Delivered",
+              "date": "2024-07-15",
+              "status": "completed"
+            },
+            {
+              "name": "Testing Complete",
+              "date": "2025-02-28",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "Commissioning",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    },
+    "SP3 - Separable Portion 3": {
+      "stages": [
+        {
+          "name": "Design",
+          "start": "2024-02-01",
+          "end": "2024-04-30",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Installation",
+          "start": "2024-05-01",
+          "end": "2025-03-31",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Equipment Delivered",
+              "date": "2024-07-15",
+              "status": "completed"
+            },
+            {
+              "name": "Testing Complete",
+              "date": "2025-02-28",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "Commissioning",
+          "start": "2025-04-01",
+          "end": "2025-06-30",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    }
+  },
+  "Station B": {
+    "P1 - Track Works": {
+      "stages": [
+        {
+          "name": "Survey",
+          "start": "2024-01-15",
+          "end": "2024-02-28",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Construction",
+          "start": "2024-03-01",
+          "end": "2025-02-28",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Track Laying",
+              "date": "2024-06-30",
+              "status": "completed"
+            },
+            {
+              "name": "Ballasting Complete",
+              "date": "2024-11-30",
+              "status": "completed"
+            }
+          ]
+        },
+        {
+          "name": "Testing & Commissioning",
+          "start": "2025-03-01",
+          "end": "2025-05-31",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    },
+    "P2 - Station Building": {
+      "stages": [
+        {
+          "name": "Design",
+          "start": "2024-01-01",
+          "end": "2024-03-31",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Construction",
+          "start": "2024-04-01",
+          "end": "2025-08-31",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Structural Complete",
+              "date": "2024-08-31",
+              "status": "completed"
+            },
+            {
+              "name": "Fit-out Complete",
+              "date": "2025-05-31",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "Final Testing",
+          "start": "2025-09-01",
+          "end": "2025-11-30",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    }
+  },
+  "Station C": {
+    "P1 - Civil Works": {
+      "stages": [
+        {
+          "name": "Planning",
+          "start": "2024-03-01",
+          "end": "2024-05-31",
+          "status": "completed",
+          "milestones": []
+        },
+        {
+          "name": "Execution",
+          "start": "2024-06-01",
+          "end": "2025-09-30",
+          "status": "in_progress",
+          "milestones": [
+            {
+              "name": "Foundation Complete",
+              "date": "2024-09-30",
+              "status": "completed"
+            },
+            {
+              "name": "Superstructure Complete",
+              "date": "2025-04-30",
+              "status": "completed"
+            },
+            {
+              "name": "Final Works",
+              "date": "2025-08-31",
+              "status": "in_progress"
+            }
+          ]
+        },
+        {
+          "name": "Handover",
+          "start": "2025-10-01",
+          "end": "2025-12-31",
+          "status": "planned",
+          "milestones": []
+        }
+      ]
+    }
+  }
+}
